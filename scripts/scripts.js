@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function changeDuration() {
         let durationText = document.getElementById("duration-text");
-        let newDuration = prompt("Enter new duration:");
+        let newDuration = prompt("Enter how many days you would like to rent the robot:");
         duration = parseInt(newDuration);
         durationText.innerHTML = duration;
         recalculate();
